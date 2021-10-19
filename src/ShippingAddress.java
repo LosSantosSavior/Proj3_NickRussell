@@ -6,7 +6,7 @@
 public class ShippingAddress {
 
   //
-  // Fields
+  // Fields, etc.
   //
 
   private String AddressLine1;
