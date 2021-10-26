@@ -18,7 +18,8 @@ public class Store {
 
   private ArrayList<Order> Orders;
   private ArrayList<Customer> Customers;
-  
+  private ArrayList<merchandiseItem> stock;
+  private double revenue;
   //
   // Constructors
   //
