@@ -5,11 +5,12 @@ public class TaxExemptCustomer extends Customer{
         super(Name, ID);
     }
 
-    public double PayForOrder(ArrayList<ItemForSale> itemsInOrder) {
+    public <ItemForSale> double PayForOrder(ArrayList<ItemForSale> itemsInOrder) {
 
     }
 
-    public void arrangeDelivery()    {
+    public String arrangeDelivery()    {
         System.out.println("Please contact " +Name+  " on the day of delivery.");
+        return null;
     }
 }

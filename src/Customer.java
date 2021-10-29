@@ -38,9 +38,10 @@ public class Customer {
   //
 
 
-public void arrangeDelivery()  {
+public String arrangeDelivery()  {
   System.out.println("Name: " + Name + "\n Your package will deliver at any time.");
 
+  return null;
 }
 
 public double payOutstandingBalance() {

@@ -7,15 +7,19 @@ public class BusinessCustomer extends Customer{
         super(Name, ID);
     }
 
-    public double PayForOrder(ArrayList<ItemForSale> itemsInOrder) {
+    public <ItemForSale> double PayForOrder(ArrayList<ItemForSale> itemsInOrder) {
 
     }
 
     public double payOutstandingBalance()   {
+        if (purchaseOrderBalance > 1000)    {
+            purchaseOrderBalance = purchaseOrderBalance * .05;
+        }
+        return purchaseOrderBalance;
 
     }
 
-    public void arrangeDelivery()   {
-
+    public String arrangeDelivery()   {
+        return Name + ", all deliveries must be from 9-5 Mon-Fri."; //Returns java.lang.String
     }
 }
