@@ -7,7 +7,7 @@ public class merchandiseItem {
         Name = "Gaming Mouse";
         price = 50.00;
         type = taxableType;
-        return Name + price + type;
+        return Name + price + type; //Returns Java.lang.String
     }
 
     public String getName() {

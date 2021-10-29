@@ -38,7 +38,10 @@ public class Customer {
   //
 
 
+public void arrangeDelivery()  {
+  System.out.println("Name: " + Name + "\n Your package will deliver at any time.");
 
+}
 
 
   /**
