@@ -8,7 +8,9 @@ public class BusinessCustomer extends Customer{
     }
 
     public <ItemForSale> double PayForOrder(ArrayList<ItemForSale> itemsInOrder) {
-
+        System.out.println("This order will be for " +Name+ " and it will be payed with a purchase order.");
+        itemsInOrder = itemsInOrder * ;
+        return 0;
     }
 
     public double payOutstandingBalance()   {
