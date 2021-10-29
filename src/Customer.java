@@ -3,7 +3,7 @@ import java.util.ArrayList;
 /**
  * Class Customer
  */
-public abstract class Customer {
+public class Customer {
 
   //
   // Fields
@@ -47,7 +47,7 @@ public double payOutstandingBalance() {
     return 0.0;
 }
 
-public abstract void PayForOrder(ArrayList<ItemForSale> itemsInOrder);
+public abstract PayForOrder(ArrayList<ItemForSale> itemsInOrder);
 
 
   /**
