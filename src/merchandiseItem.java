@@ -7,7 +7,6 @@ public class merchandiseItem {
         Name = "Gaming Mouse";
         price = 50.00;
         type = taxableType;
-        System.out.println("Name: " + Name + "\n Price: " + price + "");
         return Name + price + type;
     }
 
