@@ -9,7 +9,7 @@ public class Customer {
   // Fields
   //
   private ArrayList<ShippingAddress> Addresses;
-  private String Name;
+  String Name;
   private int customerID;
   private static int nextID = 5000; //all preloaded customers from the text file must have IDs lower than 5000
   
