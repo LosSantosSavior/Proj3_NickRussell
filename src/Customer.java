@@ -3,7 +3,7 @@ import java.util.ArrayList;
 /**
  * Class Customer
  */
-public class Customer {
+public abstract class Customer {
 
   //
   // Fields
@@ -42,6 +42,12 @@ public void arrangeDelivery()  {
   System.out.println("Name: " + Name + "\n Your package will deliver at any time.");
 
 }
+
+public double payOutstandingBalance() {
+    return 0.0;
+}
+
+public abstract void PayForOrder(ArrayList<ItemForSale> itemsInOrder);
 
 
   /**
