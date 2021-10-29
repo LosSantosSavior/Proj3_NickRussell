@@ -17,7 +17,9 @@ public class BusinessCustomer extends Customer{
         if (purchaseOrderBalance > 1000)    {
             purchaseOrderBalance = purchaseOrderBalance * .05;
         }
-        return purchaseOrderBalance;
+        double temp = purchaseOrderBalance;
+        purchaseOrderBalance = 0;
+        return temp; //resets the outstanding balance to 0
 
     }
 
