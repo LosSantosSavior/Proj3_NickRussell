@@ -1,4 +1,4 @@
-
+import java.util.ArrayList;
 
 /**
  * Class Order
@@ -11,7 +11,11 @@ public class Order {
 
   private ShippingAddress destination;
   private Customer orderedBy;
+  private ArrayList<merchandiseItem> cartForOrder;
 
+  public void setCartForOrder(ArrayList<merchandiseItem> cartForOrder) {
+    this.cartForOrder = cartForOrder;
+  }
 
   /**
    * @param        dest
