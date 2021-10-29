@@ -6,6 +6,6 @@ public class TaxExemptCustomer {
     }
 
     public void arrangeDelivery()    {
-
+        System.out.println("Please contact " + " on the day of delivery.");
     }
 }
